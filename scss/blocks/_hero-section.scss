@@ -1,0 +1,40 @@
+.hero-section{
+    background-color: #F2CEDA70;
+}
+.hero-section__wrapper{
+    background-image: url("../images/hero-bg-img.png");
+    background-repeat: no-repeat;
+    background-position: 420px top;
+    padding-top: 186px;
+    padding-bottom: 213px;
+}
+.hero-section__subtitile{
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+.hero-section__title{
+    width: 624px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+}
+.title-end{
+    color: #D23166;
+}
+.hero-section__desc{
+    width: 529px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+}
