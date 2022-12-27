@@ -402,7 +402,8 @@ img {
 ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 a {
@@ -518,7 +519,8 @@ a {
 }
 
 .hero-section__title {
-  width: 624px;
+  width: 100%;
+  max-width: 624px;
   margin-top: 0;
   margin-bottom: 35px;
   font-size: 57.33px;
@@ -532,11 +534,58 @@ a {
 }
 
 .hero-section__desc {
-  width: 529px;
+  width: 100%;
+  max-width: 529px;
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 18px;
   line-height: 27px;
   color: #0F0101;
+  opacity: 0.6;
+}
+
+.services-section {
+  background-color: rgba(229, 229, 229, 0.1254901961);
+}
+
+.services-section__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.services-section__item {
+  text-align: center;
+  padding: 33px 26px 27px;
+  background: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.031372549);
+  border-radius: 7px;
+}
+
+.services-section__item:hover {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.031372549);
+}
+
+.services-section__img {
+  margin-bottom: 25px;
+}
+
+.services-section__subtitle {
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+}
+
+.services-section__desc {
+  margin: 0;
+  width: 205px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000;
   opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */

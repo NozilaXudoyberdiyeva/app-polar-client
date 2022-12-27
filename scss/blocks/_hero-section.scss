@@ -18,7 +18,8 @@
     color: #0F0101;
 }
 .hero-section__title{
-    width: 624px;
+    width: 100%;
+    max-width: 624px;
     margin-top: 0;
     margin-bottom: 35px;
     font-size: 57.33px;
@@ -30,7 +31,8 @@
     color: #D23166;
 }
 .hero-section__desc{
-    width: 529px;
+    width: 100%;
+    max-width: 529px;
     margin-top: 0;
     margin-bottom: 50px;
     font-size: 18px;
