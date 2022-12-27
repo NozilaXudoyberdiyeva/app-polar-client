@@ -1,89 +1,38 @@
 
 .site-header{
-    @include header;
+    background-color: #F2CEDA;
+    position: sticky;
+    z-index: 99;
 }
-
-// .sitenav__list{
-//     display: flex;
-//     justify-content: space-between;
-//     @include list-unstyled;
-
-//     .sitenav__link{
-//         font-size: 25px;
-//         font-weight: 700;
-//         color: #fff;
-//         @include a-link;
-
-//         &:active{
-//             color: #fff000;
-//         }
-
-//         &:hover{
-//             background-color: #fff;
-//             color: #000;
-//         }
-//     }
-// }
-
-.sitenav{
-    &__list{
-        display: flex;
-        justify-content: space-between;
-        @include list-unstyled;
-    }
-
-    &__item{
-        background-color: #00ffff;
-    }
-
-    &__link{
-        font-size: 25px;
-        font-weight: 700;
-        color: #fff;
-        @include a-link;
-
-        &:active{
-            color: #fff000;
-        }
-
-        &:hover{
-            background-color: #fff;
-        color: #000;
-        }
-    }
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.site-header__input{
-    padding-bottom: 16px;
-    padding-left: 15px;
-    border: none;
-    background-color: transparent;
-    outline: none;
-    border-bottom: 1px solid #fff;
+.site-header__logo{
+    display: block;
+    background-color: #F2CEDA;
+    padding: 10px 0;
 }
-
-.site-header__input::placeholder{
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 25px;
-    letter-spacing: -0.115385px;
-    color: #fff; 
-    mix-blend-mode: normal;
+.site-nav__list{
+    display: flex;
+    gap: 40px;
+}
+.site-nav__link{
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
     opacity: 0.6;
 }
-
-.invalid-text{
-    display: none;
-    font-size: 10px;
-    line-height: 12px;
-    color: #F67E7E;
+.site-nav__link:hover{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D23166;
+    opacity: 1;
 }
-
-.site-header__input:not(:placeholder-shown):not(:focus):invalid{
-    // display: block;
-    border-bottom: 3px solid #ff0000;
-}
-
-.site-header__input:not(:placeholder-shown):not(:focus):invalid + .invalid-text{
-    display: block;
+.site-nav__link:focus{
+    font-weight: 700;
+    color: #000;
+    opacity: 1;
 }
