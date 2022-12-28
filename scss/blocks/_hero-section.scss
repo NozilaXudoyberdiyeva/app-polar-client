@@ -2,11 +2,22 @@
     background-color: #F2CEDA70;
 }
 .hero-section__wrapper{
-    background-image: url("../images/hero-bg-img.png");
+    background-image: url("../images/bg-image.png");
     background-repeat: no-repeat;
     background-position: 420px top;
     padding-top: 186px;
     padding-bottom: 213px;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+.hero-section__wrapper{
+    background-image: url("../images/bg-image@2x.png");
+}
 }
 .hero-section__subtitile{
     margin-top: 0;

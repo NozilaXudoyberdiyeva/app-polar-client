@@ -501,13 +501,18 @@ a {
 }
 
 .hero-section__wrapper {
-  background-image: url("../images/hero-bg-img.png");
+  background-image: url("../images/bg-image.png");
   background-repeat: no-repeat;
   background-position: 420px top;
   padding-top: 186px;
   padding-bottom: 213px;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero-section__wrapper {
+    background-image: url("../images/bg-image@2x.png");
+  }
+}
 .hero-section__subtitile {
   margin-top: 0;
   margin-bottom: 6px;
@@ -587,5 +592,38 @@ a {
   font-size: 14px;
   line-height: 19px;
   color: #000;
+  opacity: 0.6;
+}
+
+.brown-sugar__section {
+  background-color: #F8EDF0;
+}
+
+.brown-sugar__section--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brown-sugar__section--text {
+  padding-top: 141px;
+}
+
+.brown-sugar__section--title {
+  width: 349px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  color: #150101;
+}
+
+.brown-sugar__section--desc {
+  width: 442px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150101;
   opacity: 0.6;
 }/*# sourceMappingURL=main.css.map */
