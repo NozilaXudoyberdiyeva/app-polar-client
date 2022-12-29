@@ -13,7 +13,6 @@
     padding-top: 9px;
 }
 .footer-follow__us--desc{
-    display: block;
     width: 207px;
     margin-bottom: 25px;
     font-size: 12px;
@@ -97,6 +96,12 @@
     font-size: 20px;
     line-height: 23px;
     color: #FFF;
+}
+.site-footer__newsletter--btn:hover{
+    box-shadow: 0 0 10px 3px #808080;
+}
+.site-footer__newsletter--btn:active{
+    background-color: #ff0000;
 }
 .site-footer__newsletter--list{
     display: flex;

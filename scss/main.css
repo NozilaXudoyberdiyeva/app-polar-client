@@ -947,6 +947,14 @@ a {
   color: #FFF;
 }
 
+.form-btn:hover {
+  box-shadow: 0 0 10px 3px #808080;
+}
+
+.form-btn:active {
+  background-color: #ff0000;
+}
+
 .site-footer {
   background-color: #0A0808;
 }
@@ -966,7 +974,6 @@ a {
 }
 
 .footer-follow__us--desc {
-  display: block;
   width: 207px;
   margin-bottom: 25px;
   font-size: 12px;
@@ -1065,6 +1072,14 @@ a {
   font-size: 20px;
   line-height: 23px;
   color: #FFF;
+}
+
+.site-footer__newsletter--btn:hover {
+  box-shadow: 0 0 10px 3px #808080;
+}
+
+.site-footer__newsletter--btn:active {
+  background-color: #ff0000;
 }
 
 .site-footer__newsletter--list {

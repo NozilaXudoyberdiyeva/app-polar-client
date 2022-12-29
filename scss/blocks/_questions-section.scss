@@ -50,3 +50,9 @@
     line-height: 23px;
     color: #FFF;
 }
+.form-btn:hover{
+    box-shadow: 0 0 10px 3px #808080;
+}
+.form-btn:active{
+    background-color: #ff0000;
+}
